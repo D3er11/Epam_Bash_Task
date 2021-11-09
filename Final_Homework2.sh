@@ -1,5 +1,4 @@
-home/devops/Alex_Tselpukhousky_Bash_Final_Homework2/0000755000000000000000000000000014072031710021645 5ustar  rootroothome/devops/Alex_Tselpukhousky_Bash_Final_Homework2/zabbix_server.sh0000755000000000000000000000307714072031311025055 0ustar  rootroot#!/bin/bash
-rpm -Uvh https://repo.zabbix.com/zabbix/5.0/rhel/7/x86_64/zabb..
+rpm -Uvh https://repo.zabbix.com/zabbix/5.0/rhel/7/x86_64/zabbix-agent-5.0.0-1.el7.x86_64.rpm
 yum clean all
 
 yum install zabbix-server-mysql zabbix-agent -y
