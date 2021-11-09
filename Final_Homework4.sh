@@ -1,5 +1,3 @@
-home/devops/Alex_Tselpukhousky_Bash_Final_Homework4/0000755000000000000000000000000014072031120021642 5ustar  rootroothome/devops/Alex_Tselpukhousky_Bash_Final_Homework4/backup.sh0000755000000000000000000000044514072031043023455 0ustar  rootroot#!/bin/bash
-
 firstsource=/home/
 secondsource=/root/
 BACKUPTIME=`date +"%d-%m-%y-%H;%M;%S"`
@@ -11,7 +9,7 @@ tar -cpzf $DESTINATION $firstsource $secondsource
 
 ###Adding cron rule
 echo "29 0 * * * /bin/bash /home/devops/backupfolder/999.sh" > /var/spool/cron/root
-home/devops/Alex_Tselpukhousky_Bash_Final_Homework4/provision.sh0000755000000000000000000000417214072030766024254 0ustar  rootroot#!/bin/bash
+home/devops/Alex_Tselpukhousky_Bash_Final_Homework4/provision.sh
 
 yum install nfs-utils
 yum install expect -y
